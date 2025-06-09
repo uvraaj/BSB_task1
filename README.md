@@ -20,20 +20,22 @@ The decentralized architecture ensures transparency and makes it extremely diffi
 
 Each block typically contains the following fields:
 
-```+----------------------------+```
-```|       Block Header         |```
-```+----------------------------+```
-```| Timestamp: 2025-06-07      |```
-```| Nonce: 58293               |```
-```| Previous Hash: 7d32ab...   |```
-```| Merkle Root: f9a8c...      |```
-```+----------------------------+```
-```|           Data             |```
-```| "Alice pays Bob 10 BTC"    |```
-```+----------------------------+```
-```|           Hash             |```
-```| a1b2c3d4e5f6...            |```
-```+----------------------------+```
+```
++----------------------------+
+|       Block Header         |
++----------------------------+
+| Timestamp: 2025-06-07      |
+| Nonce: 58293               |
+| Previous Hash: 7d32ab...   |
+| Merkle Root: f9a8c...      |
++----------------------------+
+|           Data             |
+| "Alice pays Bob 10 BTC"    |
++----------------------------+
+|           Hash             |
+| a1b2c3d4e5f6...            |
++----------------------------+
+```
 
 
 ### Merkle Root Explanation
